@@ -7,6 +7,7 @@ import MainContainer from './components/MainContainer';
 import WatchPage from './components/WatchPage';
 import ResultsPage from './components/ResultsPage';
 import Home from './components/Home';
+import { useEffect } from 'react';
 
 const appRouter=createBrowserRouter([{
     path:"/",
